@@ -10,4 +10,18 @@ public class HomeController {
 
         return "home/home";
     }
+
+    @GetMapping("/leaders")
+    public String leaders() {
+
+        return "leaders";
+    }
+
+    // add request mapping for /systems
+
+    @GetMapping("/systems")
+    public String systems() {
+
+        return "systems";
+    }
 }
